@@ -28,6 +28,11 @@ corsProxy.createServer({
         'x-heroku-queue-depth',
         'x-heroku-dynos-in-use',
         'x-request-start',
+        'sec-ch-ua',
+        'sec-ch-ua-mobile',
+        'sec-ch-ua-platform',
+        'sec-fetch-mode',
+        'sec-fetch-dest'
     ],
     redirectSameOrigin: true,
     httpProxyOptions: {
